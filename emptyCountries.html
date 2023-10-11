@@ -6,66 +6,55 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.8"></script>
 </head>
 <body>
-  <div id="vis"/>
-  <script>
-    const spec = {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "World Record Temperatures",
-  "width": 800,
-  "height": 500,
-  "data": {
-    "url": "https://raw.githubusercontent.com/bran0010/choropleth_map/master/js/ne_110m_admin_0_countries.topojson",
-    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
-  },
-  "projection": {"type": "equalEarth"},
-  "layer": [
-    {
-      "transform": [
-        {
-          "calculate": "'Data is not available in ' + datum.properties.NAME",
-          "as": "note"
-        }
-      ],
-      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
-      "encoding": {"tooltip": {"field": "note"}}
-    },
-    {
-      "transform": [
-        {
-          "lookup": "properties.NAME",
-          "from": {
-            "data": {
-              "url": "https://raw.githubusercontent.com/bran0010/choropleth_map/master/data/tempData.csv"
-            },
-            "key": "Country",
-            "fields": ["Temperature (°C)", "Date", "Location"]
-          }
-        },
-        
-      ],
-      "mark": {"type": "geoshape", "stroke": "white"},
-      "encoding": {
-        "color": {
-          "field": "Temperature (°C)",
-          "type": "quantitative",
-          "scale": {
-            "type": "threshold",
-            "domain": [40, 45, 50, 55],
-            "range": ["#ffff99", "#ffcc", "#e6550d", "#990000"]
-          }
-        },
-        "tooltip": [
-          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-          {"field": "Temperature (°C)", "type": "quantitative"},
-          {"field": "Date", "type": "nominal"},
-          {"field": "Location", "type": "nominal"},
-        ]
-      }
-    }
-  ],
-  "config": {}
-};
-    vegaEmbed("#vis", spec, {mode: "vega-lite"}).then(console.log).catch(console.warn);
-  </script>
+  <div id="vis">
+
+
+    <h1>How hot is it getting - global temperatures</h1>
+  
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+          <div id="vis2" class="vis-container"></div>
+      </div>
+    </div>
+
+
+
+<h2>Line graph 1 - global average temperature over time</h2>
+<!-- pure grid group -->
+<div class="pure-g">
+    <div class="pure-u-1-1">
+        <div id="vis1" class="vis-container"></div>
+    </div>
+</div>
+
+<h2>Scatter plot 1 - average rainfall data</h2>
+<!-- pure grid group -->
+<div class="pure-g">
+    <div class="pure-u-1-1">
+        <div id="vis3" class="vis-container"></div>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+  var specVis1 = "1_overview_detail.vg.json";
+  vegaEmbed('#vis1', specVis1);
+
+  var specVis2 = "map_code.json";
+  vegaEmbed('#vis2', specVis2);
+
+  var specVis3 = "scatter_plot.vg.json";
+  vegaEmbed('#vis3', specVis3);
+
+
+
+  print(brush)
+</script>
+
+
+
+
 </body>
 </html>
