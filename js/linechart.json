@@ -28,7 +28,7 @@
       "legend": {
         "labelExpr": "datum.label == 'exact' ? 'Annual Mean' : datum.label == 'Lowess' ? 'Lowess Smoothing' :datum.label == 'etc' ? 'etc' : 'etc'"
       },
-      "title": "Reference Type"
+      "title": null
     }
   }
   }
