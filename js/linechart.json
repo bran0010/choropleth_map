@@ -5,12 +5,29 @@
   "width": "container",
   "height": 500,
   "data": {"url": "https://raw.githubusercontent.com/bran0010/vis2/master/data/globaltemp.csv"},
+
+  "layer": [
+    {
   "mark": "line",
   "encoding": {
     "x": {"field": "Year", 
       "type": "temporal"},
     "y": {"field": "Change", 
       "type": "quantitative"},
-    "strokeDash": {"field": "Type", "type": "nominal"}
+    "strokeDash": {
+      "field": "Type", 
+      "type": "nominal",
+      "legend": false
+      
+    },
+    "color": {
+      "field": "Type",
+      "scale": { "domain": ["exact","Lowess"], "range": ["red","black"]}
+    }
   }
+  }
+  ]
 }
+
+
+

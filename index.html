@@ -1,72 +1,81 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.8"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
-<body style="background-color: coral; margin: auto; width: 80%; text-align: center;">
-  <div id="vis">
+<title>Visualisation 2</title>
 
+<body>
+  <div id="heading">
+    <h1 style="background-color: red; text-align: center; height: 40px; padding:40px; color: white">How hot is it getting - global temperatures</h1>
+  </div>
 
-    <h1 style="background-color: red;">How hot is it getting - global temperatures</h1>
-  
+  <div id="vis" style="background-color: white; margin: auto; width: 90%; text-align: center;">
+    
+
     <div class="pure-g" style="background-color: orangered;">
       <div class="pure-u-1-1">
-          <div id="vis2" class="vis-container" style="margin: auto; width: 100%;"></div>
+        <div id="vis2" class="vis-container" style="margin: auto; width: 100%;"></div>
       </div>
     </div>
 
 
 
-<h2 style="background-color: red;">Line graph 1 - global average temperature over time</h2>
-<!-- pure grid group -->
-<div class="pure-g" style="background-color: orangered;">
-    <div class="pure-u-1-1">
+    <h2 style="background-color: red;">Line graph 1 - global average temperature over time</h2>
+    <!-- pure grid group -->
+    <div class="pure-g" style="background-color: orangered;">
+      <div class="pure-u-1-2">
         <div id="vis1" class="vis-container" style="margin: auto; width: 100%;"></div>
-    </div>
-</div>
+      </div>
 
-<h2 style="background-color: red;">Scatter plot 1 - average rainfall data</h2>
-<!-- pure grid group -->
-<div class="pure-g" style="background-color: orangered;">
-    <div class="pure-u-1-1">
+      <div class="pure-u-1-2">
         <div id="vis3" class="vis-container" style="margin: auto; width: 100%;"></div>
+      </div>
     </div>
-</div>
 
-<h2 style="background-color: red;">Scatter plot 1 - average rainfall data</h2>
-<!-- pure grid group -->
-<div class="pure-g" style="background-color: orangered;">
-    <div class="pure-u-1-1">
+
+    <h2 style="background-color: red;">Scatter plot 1 - average rainfall data</h2>
+    <!-- pure grid group -->
+    <div class="pure-g" style="background-color: orangered;">
+      <div class="pure-u-1-1">
         <div id="vis4" class="vis-container" style="margin: auto; width: 100%;"></div>
+      </div>
     </div>
-</div>
+
+  </div>
+
+
+  <script type="text/javascript">
+    var specVis1 = "js/linechart.json";
+    vegaEmbed('#vis1', specVis1, { "actions": false });
+
+    var specVis2 = "js/map_code.json";
+    vegaEmbed('#vis2', specVis2, { "actions": false });
+
+    var specVis3 = "js/grad_area.json";
+    vegaEmbed('#vis3', specVis3, { "actions": false });
+
+    var specVis4 = "js/lasagna.json";
+    vegaEmbed('#vis4', specVis4, { "actions": false });
 
 
 
-
-<script type="text/javascript">
-  var specVis1 = "js/linechart.json";
-  vegaEmbed('#vis1', specVis1, {"actions":false});
-
-  var specVis2 = "js/map_code.json";
-  vegaEmbed('#vis2', specVis2, {"actions":false});
-
-  var specVis3 = "js/grad_area.json";
-  vegaEmbed('#vis3', specVis3, {"actions":false});
-
-  var specVis4 = "js/lasagna.json";
-  vegaEmbed('#vis4', specVis4, {"actions":false});
-
-
-
-  print(brush)
-</script>
+    print(brush)
+  </script>
 
 
 
 
 </body>
+
 </html>
