@@ -1,13 +1,15 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Google's stock price over time.",
+  "width": 800,
+  "height": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/bran0010/vis2/master/data/co2.csv"
   },
   "mark": {
     "type": "area",
     "line": {
-      "color": "darkgreen"
+      "color": "black"
     },
     "color": {
       "x1": 1,
@@ -18,11 +20,11 @@
       "stops": [
         {
           "offset": 0,
-          "color": "white"
+          "color": "darkgray"
         },
         {
           "offset": 1,
-          "color": "darkgreen"
+          "color": "black"
         }
       ]
     }
@@ -34,7 +36,10 @@
     },
     "y": {
       "field": "CO2",
-      "type": "quantitative"
+      "type": "quantitative",
+      "scale": {
+        "zero": false
+      }
     }
   }
 }
