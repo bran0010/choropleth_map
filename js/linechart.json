@@ -1,3 +1,4 @@
+
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Stock prices of 5 Tech Companies over Time.",
@@ -6,6 +7,6 @@
   "encoding": {
     "x": {"field": "Year", "type": "temporal"},
     "y": {"field": "Change", "type": "quantitative"},
-    "strokeDash": {"field": "Legend", "type": "nominal"}
+    "strokeDash": {"field": "Type", "type": "nominal"}
   }
 }
