@@ -3,7 +3,7 @@
   "width": 800,
   "height": 500,
   "data": {
-    "url": "https://raw.githubusercontent.com/bran0010/choropleth_map/master/js/ne_110m_admin_0_countries.topojson",
+    "url": "https://raw.githubusercontent.com/bran0010/vis2/master/js/ne_110m_admin_0_countries.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "projection": {"type": "equalEarth"},
@@ -33,7 +33,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/bran0010/choropleth_map/master/data/tempData.csv"
+              "url": "https://raw.githubusercontent.com/bran0010/vis2/master/data/tempData.csv"
             },
             "key": "Country",
             "fields": ["Temperature (°C)", "Date", "Location"]
