@@ -49,11 +49,7 @@
         "color": {
           "field": "Temperature (°C)",
           "type": "quantitative",
-          "scale": {
-            "type": "linear",
-            "domain": [ 30, 50, 55],
-            "range": [ "#ffcc", "#e6550d", "#990000"]
-          }
+          "scale": { "scheme": "reds"}
         },
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},

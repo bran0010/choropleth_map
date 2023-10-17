@@ -35,7 +35,8 @@
       "aggregate": "sum",
       "field": "TempChange",
       "type": "quantitative",
-      "title": "Temperature Change"
+      "title": null,
+      "scale": {"domain": [-2, 2], "scheme": "redyellowblue", "reverse": true}
     },
     "y": {
       "field": "Country",
