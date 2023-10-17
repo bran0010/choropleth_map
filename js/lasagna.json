@@ -1,21 +1,21 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "transform": [],
-  "width": 500,
-  "height": 100,
+  "width": "container",
+  "height": 150,
   "data": {
-    "url": "data/stocks.csv"
+    "url": "https://raw.githubusercontent.com/bran0010/vis2/master/data/countrytemp.csv"
   },
   "mark": "rect",
   "encoding": {
     "x": {
       "timeUnit": "yearmonthdate",
-      "field": "date",
+      "field": "Year",
       "type": "ordinal",
       "title": "Time",
       "axis": {
         "format": "%Y",
-        "labelAngle": 0,
+        "labelAngle": 90,
         "labelOverlap": false,
         "labelColor": {
           "condition": {
@@ -27,28 +27,18 @@
             "value": "black"
           },
           "value": null
-        },
-        "tickColor": {
-          "condition": {
-            "test": {
-              "timeUnit": "monthdate",
-              "field": "value",
-              "equal": {"month": 1, "date": 1}
-            },
-            "value": "black"
-          },
-          "value": null
         }
+        
       }
     },
     "color": {
       "aggregate": "sum",
-      "field": "price",
+      "field": "TempChange",
       "type": "quantitative",
-      "title": "Price"
+      "title": "Temperature Change"
     },
     "y": {
-      "field": "symbol",
+      "field": "Country",
       "type": "nominal",
       "title": null
     }
