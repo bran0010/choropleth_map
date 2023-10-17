@@ -11,14 +11,27 @@
     integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Google font -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rock+Salt" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
 <style>
 h1 {
   font-family: "Rock Salt", sans-serif;
 }
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: xx-large;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+}
+
+
 </style>
 
 </head>
@@ -29,36 +42,42 @@ h1 {
 
 <body>
   <div id="heading">
-    <h1 style="background-color: red; text-align: center; height: 40px; padding:40px; color: white; font-family:'Fire'">How hot is it getting - global temperatures</h1>
+    <h1 style="background-color: darkred; text-align: center; height: 40px; padding:40px; color: white;">HOW HOT CAN WE LET IT GET</h1>
+    
   </div>
 
   <div id="vis" style="background-color: white; margin: auto; width: 90%; text-align: center;">
     
-
-    <div class="pure-g" style="background-color: orangered;">
+    <h2>Maximum Temperatures Around the World</h2>
+    <div class="pure-g" >
       <div class="pure-u-1-1">
         <div id="vis2" class="vis-container" style="margin: auto; width: 100%;"></div>
       </div>
     </div>
 
+    <hr>
+    <h2>Maximum Temperatures Around the World</h2>
 
-
-    <h2 style="background-color: red;">Line graph 1 - global average temperature over time</h2>
+    
     <!-- pure grid group -->
-    <div class="pure-g" style="background-color: orangered;">
+    <div class="pure-g" >
       <div class="pure-u-1-2">
+        <h3>Global Surface Temperature Compared to 1951-1980 Avg.</h3>
         <div id="vis1" class="vis-container" style="margin: auto; width: 100%;"></div>
       </div>
 
       <div class="pure-u-1-2">
+        <h3>Average CO2 Concentration in ppm </h3>
         <div id="vis3" class="vis-container" style="margin: auto; width: 100%;"></div>
       </div>
     </div>
 
+    <hr>
+    <h2>Annual Summer Temperature Change</h2>
 
-    <h2 style="background-color: red;">Scatter plot 1 - average rainfall data</h2>
+    
     <!-- pure grid group -->
-    <div class="pure-g" style="background-color: orangered;">
+    <div class="pure-g" >
       <div class="pure-u-1-1">
         <div id="vis4" class="vis-container" style="margin: auto; width: 100%;"></div>
       </div>

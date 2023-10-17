@@ -13,7 +13,9 @@
     "x": {"field": "Year", 
       "type": "temporal"},
     "y": {"field": "Change", 
-      "type": "quantitative"},
+      "type": "quantitative",
+      "title": "Temperature Anomaly (°C)"},
+      
     "strokeDash": {
       "field": "Type", 
       "type": "nominal",
@@ -22,7 +24,11 @@
     },
     "color": {
       "field": "Type",
-      "scale": { "domain": ["exact","Lowess"], "range": ["red","black"]}
+      "scale": { "domain": ["exact","Lowess"], "range": ["red","black"]},
+      "legend": {
+        "labelExpr": "datum.label == 'exact' ? 'Annual Mean' : datum.label == 'Lowess' ? 'Lowess Smoothing' :datum.label == 'etc' ? 'etc' : 'etc'"
+      },
+      "title": "Reference Type"
     }
   }
   }

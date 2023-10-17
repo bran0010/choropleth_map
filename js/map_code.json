@@ -1,5 +1,5 @@
 { "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "World Record Temperatures",
+  "title": null,
   "width": "container",
   "height": 500,
   "data": {

@@ -33,12 +33,19 @@
   "encoding": {
     "x": {
       "field": "Date",
-      "type": "temporal"
+      "type": "temporal",
+      "title": "Year"
     },
     "y": {
       "field": "CO2",
       "type": "quantitative",
-      "scale": {"domain": [300,450]}
-    }
+      "scale": {"domain": [300,450]},
+      "title": "CO2 Concentration (ppm)"
+    },
+    "tooltip": [
+      {"field": "CO2", "type": "quantitative", "title": "CO2 Concentration (ppm)", "format": ".2f"},
+      {"field": "Date", "type": "temporal", "title": "Year", "timeUnit":"yearmonth"}
+      
+    ]
   }
 }
