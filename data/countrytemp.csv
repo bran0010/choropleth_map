@@ -1,0 +1,591 @@
+﻿Year,Country,TempChange
+1961,Australia,0.044
+1962,Australia,0.116
+1963,Australia,-0.289
+1964,Australia,-0.172
+1965,Australia,0
+1966,Australia,0.027
+1967,Australia,-0.405
+1968,Australia,0.149
+1969,Australia,0.234
+1970,Australia,0.237
+1971,Australia,0.347
+1972,Australia,-0.415
+1973,Australia,1.059
+1974,Australia,-0.57
+1975,Australia,-0.301
+1976,Australia,-0.658
+1977,Australia,0.577
+1978,Australia,0.521
+1979,Australia,0.321
+1980,Australia,0.71
+1981,Australia,0.57
+1982,Australia,0.609
+1983,Australia,1.163
+1984,Australia,-0.319
+1985,Australia,0.629
+1986,Australia,0.273
+1987,Australia,0.007
+1988,Australia,0.497
+1989,Australia,0.211
+1990,Australia,0.294
+1991,Australia,0.866
+1992,Australia,0.081
+1993,Australia,-0.002
+1994,Australia,0.167
+1995,Australia,0.417
+1996,Australia,0.082
+1997,Australia,0.329
+1998,Australia,1.123
+1999,Australia,0.621
+2000,Australia,-0.318
+2001,Australia,0.672
+2002,Australia,-0.235
+2003,Australia,1.008
+2004,Australia,0.897
+2005,Australia,0.713
+2006,Australia,0.988
+2007,Australia,0.843
+2008,Australia,0.426
+2009,Australia,0.537
+2010,Australia,1.013
+2011,Australia,0.276
+2012,Australia,0.019
+2013,Australia,1.463
+2014,Australia,0.856
+2015,Australia,1.141
+2016,Australia,1.14
+2017,Australia,0.928
+2018,Australia,1.266
+2019,Australia,2.078
+1961,Brazil,-0.126
+1962,Brazil,-0.081
+1963,Brazil,-0.132
+1964,Brazil,0.056
+1965,Brazil,-0.358
+1966,Brazil,0.229
+1967,Brazil,-0.039
+1968,Brazil,-0.261
+1969,Brazil,0.203
+1970,Brazil,0.151
+1971,Brazil,0.102
+1972,Brazil,-0.257
+1973,Brazil,0.724
+1974,Brazil,-0.105
+1975,Brazil,-0.246
+1976,Brazil,-0.212
+1977,Brazil,0.045
+1978,Brazil,0.151
+1979,Brazil,-0.13
+1980,Brazil,0.132
+1981,Brazil,0.182
+1982,Brazil,0.077
+1983,Brazil,0.499
+1984,Brazil,0.364
+1985,Brazil,0.048
+1986,Brazil,0.222
+1987,Brazil,0.498
+1988,Brazil,0.766
+1989,Brazil,0.154
+1990,Brazil,0.246
+1991,Brazil,0.461
+1992,Brazil,0.462
+1993,Brazil,0.209
+1994,Brazil,0.509
+1995,Brazil,0.796
+1996,Brazil,0.671
+1997,Brazil,0.516
+1998,Brazil,1.482
+1999,Brazil,0.71
+2000,Brazil,0.474
+2001,Brazil,0.557
+2002,Brazil,0.601
+2003,Brazil,1.114
+2004,Brazil,0.823
+2005,Brazil,1.137
+2006,Brazil,0.913
+2007,Brazil,1.111
+2008,Brazil,0.618
+2009,Brazil,0.697
+2010,Brazil,1.217
+2011,Brazil,0.774
+2012,Brazil,0.625
+2013,Brazil,1.158
+2014,Brazil,1.08
+2015,Brazil,1.259
+2016,Brazil,1.861
+2017,Brazil,1.263
+2018,Brazil,1.041
+2019,Brazil,1.371
+1961,Canada,0.632
+1962,Canada,0.113
+1963,Canada,0.106
+1964,Canada,-0.512
+1965,Canada,-0.682
+1966,Canada,0.235
+1967,Canada,0.018
+1968,Canada,-0.837
+1969,Canada,-0.355
+1970,Canada,0.455
+1971,Canada,0.197
+1972,Canada,-0.707
+1973,Canada,0.821
+1974,Canada,0.007
+1975,Canada,0.762
+1976,Canada,0.06
+1977,Canada,-0.085
+1978,Canada,-0.77
+1979,Canada,0.028
+1980,Canada,0.1
+1981,Canada,0.572
+1982,Canada,-0.327
+1983,Canada,0.737
+1984,Canada,0.797
+1985,Canada,-0.154
+1986,Canada,-0.595
+1987,Canada,0.021
+1988,Canada,0.808
+1989,Canada,1.076
+1990,Canada,0.544
+1991,Canada,0.933
+1992,Canada,-0.728
+1993,Canada,0.305
+1994,Canada,0.859
+1995,Canada,0.825
+1996,Canada,0.643
+1997,Canada,0.708
+1998,Canada,1.742
+1999,Canada,0.629
+2000,Canada,0.357
+2001,Canada,1.021
+2002,Canada,0.626
+2003,Canada,0.96
+2004,Canada,0.019
+2005,Canada,0.704
+2006,Canada,1.432
+2007,Canada,0.966
+2008,Canada,1.037
+2009,Canada,0.466
+2010,Canada,1.29
+2011,Canada,1.175
+2012,Canada,1.918
+2013,Canada,1.124
+2014,Canada,1.262
+2015,Canada,1.105
+2016,Canada,1.436
+2017,Canada,1.054
+2018,Canada,0.81
+2019,Canada,0.923
+1961,China,0.483
+1962,China,0.054
+1963,China,0.151
+1964,China,-0.139
+1965,China,-0.285
+1966,China,0.156
+1967,China,0.203
+1968,China,-0.219
+1969,China,-0.381
+1970,China,-0.059
+1971,China,0.016
+1972,China,0.007
+1973,China,0.022
+1974,China,-0.242
+1975,China,0.194
+1976,China,-0.834
+1977,China,0.004
+1978,China,0.376
+1979,China,-0.121
+1980,China,0.041
+1981,China,0.386
+1982,China,-0.046
+1983,China,-0.213
+1984,China,-0.059
+1985,China,0.07
+1986,China,0.048
+1987,China,-0.115
+1988,China,0.455
+1989,China,-0.19
+1990,China,0.328
+1991,China,0.322
+1992,China,-0.333
+1993,China,-0.393
+1994,China,0.753
+1995,China,0.268
+1996,China,0.05
+1997,China,0.547
+1998,China,0.619
+1999,China,0.537
+2000,China,0.868
+2001,China,0.865
+2002,China,0.73
+2003,China,0.33
+2004,China,0.384
+2005,China,0.968
+2006,China,1.141
+2007,China,1.038
+2008,China,0.667
+2009,China,0.721
+2010,China,1.25
+2011,China,1.04
+2012,China,0.934
+2013,China,1.206
+2014,China,0.429
+2015,China,0.59
+2016,China,1.28
+2017,China,1.07
+2018,China,1.373
+2019,China,0.948
+1961,India,-0.272
+1962,India,0.001
+1963,India,0.128
+1964,India,-0.079
+1965,India,0.226
+1966,India,0.333
+1967,India,0.08
+1968,India,0.029
+1969,India,0.211
+1970,India,-0.149
+1971,India,-0.746
+1972,India,0.649
+1973,India,0.005
+1974,India,-0.012
+1975,India,-0.36
+1976,India,-0.358
+1977,India,-0.267
+1978,India,-0.547
+1979,India,0.501
+1980,India,-0.227
+1981,India,0.167
+1982,India,0.349
+1983,India,0.398
+1984,India,-0.282
+1985,India,-0.244
+1986,India,-0.032
+1987,India,1.008
+1988,India,0.041
+1989,India,-0.336
+1990,India,-0.224
+1991,India,0.064
+1992,India,0.335
+1993,India,0.366
+1994,India,-0.39
+1995,India,0.664
+1996,India,-0.052
+1997,India,0.195
+1998,India,0.755
+1999,India,-0.025
+2000,India,-0.046
+2001,India,-0.131
+2002,India,0.728
+2003,India,0.564
+2004,India,0.227
+2005,India,0.761
+2006,India,0.248
+2007,India,0.392
+2008,India,-0.231
+2009,India,1.004
+2010,India,0.67
+2011,India,0.121
+2012,India,0.696
+2013,India,-0.153
+2014,India,1.064
+2015,India,0.596
+2016,India,0.553
+2017,India,0.458
+2018,India,0.439
+2019,India,1.094
+1961,Iraq,0.56
+1962,Iraq,1.157
+1963,Iraq,0.141
+1964,Iraq,-0.098
+1965,Iraq,0.687
+1966,Iraq,0.647
+1967,Iraq,-1.105
+1968,Iraq,-0.646
+1969,Iraq,-0.355
+1970,Iraq,-0.37
+1971,Iraq,-0.714
+1972,Iraq,-0.387
+1973,Iraq,0.029
+1974,Iraq,-0.241
+1975,Iraq,0.207
+1976,Iraq,-0.665
+1977,Iraq,0.573
+1978,Iraq,-0.345
+1979,Iraq,0.158
+1980,Iraq,0.636
+1981,Iraq,0.187
+1982,Iraq,-0.535
+1983,Iraq,-0.247
+1984,Iraq,-0.547
+1985,Iraq,0.11
+1986,Iraq,0.29
+1987,Iraq,0.612
+1988,Iraq,0.056
+1989,Iraq,0.654
+1990,Iraq,0.886
+1991,Iraq,0.322
+1992,Iraq,-0.484
+1993,Iraq,0.109
+1994,Iraq,-0.006
+1995,Iraq,0.429
+1996,Iraq,1.468
+1997,Iraq,0.385
+1998,Iraq,2.408
+1999,Iraq,1.934
+2000,Iraq,2.227
+2001,Iraq,1.713
+2002,Iraq,1.054
+2003,Iraq,1.271
+2004,Iraq,0.898
+2005,Iraq,1.323
+2006,Iraq,2.271
+2007,Iraq,1.735
+2008,Iraq,1.781
+2009,Iraq,0.995
+2010,Iraq,2.494
+2011,Iraq,1.741
+2012,Iraq,2.282
+2013,Iraq,1.254
+2014,Iraq,1.654
+2015,Iraq,1.914
+2016,Iraq,2.474
+2017,Iraq,3.126
+2018,Iraq,2.186
+2019,Iraq,2.411
+1961,South Africa,0.085
+1962,South Africa,-0.148
+1963,South Africa,0.26
+1964,South Africa,0.424
+1965,South Africa,0.1
+1966,South Africa,-0.034
+1967,South Africa,0.207
+1968,South Africa,0.183
+1969,South Africa,0.943
+1970,South Africa,0.665
+1971,South Africa,-0.365
+1972,South Africa,-0.353
+1973,South Africa,0.698
+1974,South Africa,-0.318
+1975,South Africa,-0.267
+1976,South Africa,-0.886
+1977,South Africa,0.331
+1978,South Africa,0.16
+1979,South Africa,0.264
+1980,South Africa,0.258
+1981,South Africa,-0.075
+1982,South Africa,0.185
+1983,South Africa,0.851
+1984,South Africa,0.807
+1985,South Africa,0.398
+1986,South Africa,0.003
+1987,South Africa,0.963
+1988,South Africa,0.812
+1989,South Africa,-0.514
+1990,South Africa,0.277
+1991,South Africa,0.305
+1992,South Africa,0.973
+1993,South Africa,0.666
+1994,South Africa,0.005
+1995,South Africa,1.226
+1996,South Africa,-0.153
+1997,South Africa,0.149
+1998,South Africa,0.731
+1999,South Africa,0.8
+2000,South Africa,0.091
+2001,South Africa,0.244
+2002,South Africa,0.161
+2003,South Africa,1.178
+2004,South Africa,0.685
+2005,South Africa,1.281
+2006,South Africa,0.555
+2007,South Africa,1.174
+2008,South Africa,0.383
+2009,South Africa,0.816
+2010,South Africa,0.798
+2011,South Africa,0.579
+2012,South Africa,1.001
+2013,South Africa,0.938
+2014,South Africa,0.995
+2015,South Africa,0.797
+2016,South Africa,2.243
+2017,South Africa,1.176
+2018,South Africa,0.908
+2019,South Africa,1.346
+1961,United Kingdom,-0.249
+1962,United Kingdom,-0.869
+1963,United Kingdom,-0.437
+1964,United Kingdom,-0.208
+1965,United Kingdom,-0.762
+1966,United Kingdom,-0.123
+1967,United Kingdom,0.168
+1968,United Kingdom,-0.099
+1969,United Kingdom,0.564
+1970,United Kingdom,0.502
+1971,United Kingdom,-0.218
+1972,United Kingdom,-0.896
+1973,United Kingdom,0.44
+1974,United Kingdom,-0.45
+1975,United Kingdom,1.275
+1976,United Kingdom,1.907
+1977,United Kingdom,-0.416
+1978,United Kingdom,-0.605
+1979,United Kingdom,-0.294
+1980,United Kingdom,-0.268
+1981,United Kingdom,-0.073
+1982,United Kingdom,0.62
+1983,United Kingdom,1.454
+1984,United Kingdom,0.959
+1985,United Kingdom,-0.628
+1986,United Kingdom,-0.476
+1987,United Kingdom,-0.326
+1988,United Kingdom,-0.076
+1989,United Kingdom,0.981
+1990,United Kingdom,0.804
+1991,United Kingdom,0.452
+1992,United Kingdom,0.55
+1993,United Kingdom,-0.335
+1994,United Kingdom,0.549
+1995,United Kingdom,1.795
+1996,United Kingdom,0.494
+1997,United Kingdom,1.244
+1998,United Kingdom,-0.014
+1999,United Kingdom,0.613
+2000,United Kingdom,0.391
+2001,United Kingdom,0.561
+2002,United Kingdom,0.637
+2003,United Kingdom,1.967
+2004,United Kingdom,1.045
+2005,United Kingdom,0.981
+2006,United Kingdom,1.926
+2007,United Kingdom,0.362
+2008,United Kingdom,0.731
+2009,United Kingdom,1.038
+2010,United Kingdom,0.92
+2011,United Kingdom,-0.084
+2012,United Kingdom,0.206
+2013,United Kingdom,1.395
+2014,United Kingdom,1.198
+2015,United Kingdom,0.245
+2016,United Kingdom,1.166
+2017,United Kingdom,1.117
+2018,United Kingdom,1.939
+2019,United Kingdom,1.397
+1961,USA,0.072
+1962,USA,-0.206
+1963,USA,-0.109
+1964,USA,-0.147
+1965,USA,-0.726
+1966,USA,-0.059
+1967,USA,-0.319
+1968,USA,-0.151
+1969,USA,-0.089
+1970,USA,0.17
+1971,USA,-0.076
+1972,USA,-0.192
+1973,USA,-0.009
+1974,USA,-0.151
+1975,USA,-0.261
+1976,USA,-0.359
+1977,USA,0.608
+1978,USA,0.148
+1979,USA,-0.122
+1980,USA,0.46
+1981,USA,0.265
+1982,USA,-0.325
+1983,USA,0.372
+1984,USA,0.181
+1985,USA,-0.169
+1986,USA,0.251
+1987,USA,0.342
+1988,USA,0.887
+1989,USA,0.19
+1990,USA,0.54
+1991,USA,0.357
+1992,USA,-0.662
+1993,USA,-0.1
+1994,USA,0.563
+1995,USA,0.325
+1996,USA,0.299
+1997,USA,0.218
+1998,USA,0.63
+1999,USA,0.353
+2000,USA,0.405
+2001,USA,0.66
+2002,USA,0.879
+2003,USA,0.753
+2004,USA,0.14
+2005,USA,0.837
+2006,USA,0.952
+2007,USA,1.055
+2008,USA,0.221
+2009,USA,0.017
+2010,USA,0.876
+2011,USA,1.03
+2012,USA,1.087
+2013,USA,0.845
+2014,USA,0.232
+2015,USA,0.816
+2016,USA,1.315
+2017,USA,0.82
+2018,USA,1.126
+2019,USA,0.913
+1961,Spain,0.579
+1962,Spain,0.612
+1963,Spain,-0.27
+1964,Spain,0.662
+1965,Spain,0.28
+1966,Spain,-0.141
+1967,Spain,0.151
+1968,Spain,0.101
+1969,Spain,-0.105
+1970,Spain,0.164
+1971,Spain,-0.63
+1972,Spain,-1.131
+1973,Spain,0.23
+1974,Spain,0.013
+1975,Spain,0.315
+1976,Spain,0.773
+1977,Spain,-2.015
+1978,Spain,-0.638
+1979,Spain,0.387
+1980,Spain,-0.02
+1981,Spain,0.416
+1982,Spain,0.703
+1983,Spain,0.503
+1984,Spain,-0.046
+1985,Spain,0.734
+1986,Spain,0.464
+1987,Spain,0.795
+1988,Spain,0.184
+1989,Spain,1.806
+1990,Spain,1.603
+1991,Spain,1.463
+1992,Spain,0.026
+1993,Spain,0.619
+1994,Spain,1.801
+1995,Spain,1.375
+1996,Spain,0.835
+1997,Spain,0.254
+1998,Spain,1.471
+1999,Spain,1.516
+2000,Spain,1.149
+2001,Spain,1.487
+2002,Spain,0.578
+2003,Spain,2.911
+2004,Spain,1.869
+2005,Spain,2.166
+2006,Spain,1.994
+2007,Spain,0.681
+2008,Spain,1.053
+2009,Spain,2.171
+2010,Spain,1.744
+2011,Spain,1.25
+2012,Spain,1.938
+2013,Spain,1.248
+2014,Spain,1.032
+2015,Spain,2.537
+2016,Spain,2.205
+2017,Spain,2.629
+2018,Spain,1.702
+2019,Spain,1.744
